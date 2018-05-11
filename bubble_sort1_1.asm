@@ -1,7 +1,7 @@
 ;将一组有符号存储字节数按从大到小的顺序排序，设数据变量为VAR，数组元素个数为N
 DATA SEGMENT
 VAR	 DW -1,-10,-100,27H,0AH,47H
-N EQU ($-A)/2
+N EQU ($-)/2
 DATA ENDS
 
 CODE SEGMENT
